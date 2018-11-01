@@ -21,7 +21,7 @@ png(filename = "plot4.png",width = 480, height = 480)
 par(mfrow=c(2,2))
 
 #4.1
-plot(df_consumption_red$Datetime, df_consumption_red$Global_active_power, type= "l",xlab = "", ylab = "Global Active Power (kilowatts)")
+plot(df_consumption_red$Datetime, df_consumption_red$Global_active_power, type= "l",xlab = "", ylab = "Global Active Power")
 
 #4.2
 plot(df_consumption_red$Datetime, df_consumption_red$Voltage, type= "l",xlab = "datetime", ylab = "Voltage")
